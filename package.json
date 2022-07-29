@@ -1,0 +1,14 @@
+{
+  "name": "collaborative-programming-git",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.35.2",
+    "@slidev/theme-default": "^0.21.2",
+    "@slidev/theme-seriph": "*"
+  }
+}
