@@ -40,7 +40,7 @@ layout: two-cols
 ::right::
 
 
-3. Bonus tasks:
+** Bonus tasks **
    
    1. Edit the text & title of your issue
    2. Add a comment mentioning another participant
@@ -97,3 +97,18 @@ layout: two-cols
 ---
 
 # Forks vs Branches
+
+---
+
+# Merge conflicts
+
+![](assets/merge_conflict.drawio.svg)
+
+---
+
+# Merge conflicts
+
+Let's create merge conflicts together!
+
+
+
