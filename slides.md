@@ -61,4 +61,29 @@ Markdown-based slides available as [open source](https://github.com/klieret/coll
 
 ---
 
+# What did we do?
+
+![](assets/feature.svg)
+
+* Every node is a commit
+* Your fork "branched off": You're adding additional commits to a parallel reality
+* Next step: Brining your commits back to the 
+
+---
+
 # Creating a PR
+
+* We want to apply your changes back to the original repository
+
+---
+
+# Branches
+
+![](assets/feature.svg)
+
+* If we want to work on an additional separate version, we do not need to fork, we can create another branch
+* Branches are cheap, go use them!
+
+---
+
+# Forks vs Branches
