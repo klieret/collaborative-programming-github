@@ -1,5 +1,6 @@
 ---
-theme: gaia
+theme: gaia 
+auto-scaling: true
 _class: lead
 paginate: true
 backgroundColor: #fff
@@ -51,11 +52,12 @@ Markdown-based slides available as [open source](https://github.com/klieret/coll
 # Forking & committing changes
 
 1. Click the **fork** button. This will create a separate *remote* of the repository (think of it as a "copy" of the repo for now).
-2. Open the `content` folder and click `Add file` > `Create new file`
-3. Call your file `<your name with underscores>_<some random string>` and add a few lines to it
-4. Add a commit message and commit
-5. Confirm that you see your file & a new commit
-6. Bonus:
+2. [Optional advanced] First change to a different branch
+3. Open the `content` folder and click `Add file` > `Create new file`
+4. Call your file `<your name with underscores>_<some random string>` and add a few lines to it
+5. Add a commit message and commit
+6. Confirm that you see your file & a new commit
+7. Bonus:
    a. Add a second file
    b. Open your previous file and make changes to the text
 
