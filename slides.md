@@ -87,7 +87,7 @@ Do the same with the gh CLI.
 
 # What did we do?
 
-<img src="assets/feature.svg"/>
+<img src="/feature.svg"/>
 
 * Every node is a commit
 * Your fork "branched off": You're adding additional commits to a parallel reality
@@ -103,7 +103,7 @@ Do the same with the gh CLI.
 
 # Branches
 
-<img src="assets/feature.svg"/>
+<img src="/feature.svg"/>
 
 * If we want to work on an additional separate version, we do not need to fork, we can create another branch
 * Branches are cheap, go use them!
@@ -118,7 +118,7 @@ layout: two-cols
 
 # Merge conflicts
 
-<img src="assets/merge_conflict.drawio.svg" style="max-height: 50%"/>
+<img src="/merge_conflict.drawio.svg" style="max-height: 50%"/>
 
 ::right::
 
