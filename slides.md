@@ -1,3 +1,7 @@
+---
+theme: academic
+---
+
 # **Collaborative Programming & Git**
 
 Kilian Lieret
@@ -40,7 +44,7 @@ layout: two-cols
 ::right::
 
 
-** Bonus tasks **
+** Bonus tasks**
    
    1. Edit the text & title of your issue
    2. Add a comment mentioning another participant
@@ -99,16 +103,20 @@ layout: two-cols
 # Forks vs Branches
 
 ---
-
-# Merge conflicts
-
-![](assets/merge_conflict.drawio.svg)
-
+layout: two-cols
 ---
 
 # Merge conflicts
 
+<img src="assets/merge_conflict.drawio.svg" style="max-height: 50%">
+
+::right::
+
 Let's create merge conflicts together!
 
+1. Go to your fork
+2. Create a new branch
+3. Change something in `content/random-text.txt`
+4. Commit & open a pull request
 
-
+Once some of the PRs are merged, others will show conflicts.
