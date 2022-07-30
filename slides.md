@@ -130,3 +130,7 @@ Let's create merge conflicts together!
 4. Commit & open a pull request
 
 Once some of the PRs are merged, others will show conflicts.
+
+---
+
+Bump
