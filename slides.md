@@ -87,7 +87,7 @@ Do the same with the gh CLI.
 
 # What did we do?
 
-![](assets/feature.svg)
+<img src="assets/feature.svg"/>
 
 * Every node is a commit
 * Your fork "branched off": You're adding additional commits to a parallel reality
