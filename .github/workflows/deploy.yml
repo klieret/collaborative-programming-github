@@ -12,10 +12,11 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build
-      - name: Deploy pages
-        uses: crazy-max/ghaction-github-pages@v2
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          build_dir: dist
+          branch: gh-pages
+          folder: dist  # The folder the action should deploy.
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
