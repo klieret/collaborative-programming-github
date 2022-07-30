@@ -1,5 +1,5 @@
 ---
-theme: academic
+theme: default
 ---
 
 # **Collaborative Programming & Git**
@@ -44,13 +44,17 @@ layout: two-cols
 ::right::
 
 
-** Bonus tasks**
+**Bonus tasks**
    
-   1. Edit the text & title of your issue
-   2. Add a comment mentioning another participant
-   3. Use an emoji reaction
-   4. Close & reopen your issue
-   5. Check for other issues and comment there
+1. Edit the text & title of your issue
+2. Add a comment mentioning another participant
+3. Use an emoji reaction
+4. Close & reopen your issue
+5. Check for other issues and comment there
+
+**Advanced**
+
+Open an issue with the [gh command line tool](https://cli.github.com/)
 
 ---
 layout: two-cols
@@ -68,10 +72,16 @@ layout: two-cols
 
 5. Add a commit message and commit
 6. Confirm that you see your file & a new commit
-7. Bonus:
+
+
+**<mdi-checkbox-marked-circle-plus-outline class="text-orange-400"/> Bonus tasks**
    
-   1. Add a second file
-   2. Open your previous file and make changes to the text
+1. Add a second file
+2. Open your previous file and make changes to the text
+
+**<mdi-crown class="text-red-400"/> Advanced**
+
+Do the same with the gh CLI.
 
 ---
 
@@ -93,7 +103,7 @@ layout: two-cols
 
 # Branches
 
-![](assets/feature.svg)
+<img src="assets/feature.svg"/>
 
 * If we want to work on an additional separate version, we do not need to fork, we can create another branch
 * Branches are cheap, go use them!
@@ -108,7 +118,7 @@ layout: two-cols
 
 # Merge conflicts
 
-<img src="assets/merge_conflict.drawio.svg" style="max-height: 50%">
+<img src="assets/merge_conflict.drawio.svg" style="max-height: 50%"/>
 
 ::right::
 
