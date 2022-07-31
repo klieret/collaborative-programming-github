@@ -32,3 +32,22 @@ When contributing, please also set up the pre-commit hooks with
 ```bash
 pre-commit install
 ```
+
+## Lecture content
+
+### Part I
+
+* [5'] Opening an issue
+* [8'] Fork & commit
+* [6'] PR
+* [4'] Branches theory
+* [10'] Branches practice
+* [10'] Merge conflicts
+
+Total: 43
+
+### Part II
+
+* [6'] Init repo
+* [6'] First comit
+* 

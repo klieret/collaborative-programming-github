@@ -79,8 +79,8 @@ While you can open issues, you do not have permissions to directly modify conten
 
 **<mdi-checkbox-marked-circle-plus-outline class="text-orange-400"/> Bonus tasks**
    
-1. Add a second file
-2. Open your previous file and make changes to the text
+* Add a second file
+* Open your previous file and make changes to the text
 
 **<mdi-crown class="text-red-400"/> Advanced**
 
@@ -156,8 +156,8 @@ layout: two-cols
    * The original repository (`klieret/codas...`)
    * Your own `main` branch
    * Your neighbors `main` branch
-6. If you want to do the bonus exercises, mark your PR as `draft`
-6. If you receive a PR, merge it (unless it's marked as a draft)
+6. <mdi-checkbox-marked-circle-plus-outline class="text-orange-400"/> If you want to do the bonus exercises, mark your PR as `draft`
+6. If you receive a PR, merge it (unless it's a draft)
 
 ::right::
 
@@ -208,8 +208,145 @@ layout: two-cols
 8. Resolve the conflict by determining how both changes should be reconciled
 9. Commit the merge
 
-<img src="/merge_conflict.drawio.svg" style="height: 50%"/>
+<img src="/merge_conflict.drawio.svg" style="height: 30%"/>
+
+**<mdi-checkbox-marked-circle-plus-outline class="text-orange-400"/> Bonus tasks:** Verify that if you change different lines with unchanged lines between them, git will do the merge automatically.
 
 ---
 
-# 
+# Part 2
+
+<img src="/cl.jpg/" style="height: 80%">
+
+---
+layout: default
+---
+
+# Let's get you set up
+
+Configure name, email and editor
+
+If you run git for the first time, 
+
+```bash
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+# Choose your favorite editor, e.g., nano or vim
+git config --global core.editor nano
+# Requires git 2.28
+git config --global init.defaultBranch main
+```
+
+If you haven't done already, generate ssh keys for authentication to github
+
+```bash
+ssh-keygen
+# follow the instructions
+cat ~/.ssh/id_rsa.pub
+```
+
+and add the key to github. Then clone your repository:
+
+```bash
+git clone git@github.com:<your username>/collaborative-programming-github.git
+```
+
+**Please raise your hand if you have any issues**!
+
+---
+
+# Your first commit
+
+```bash
+cd collaborative-programming-github
+cd content
+ls
+# show status of git repository
+git status
+# Create new file
+touch <your gh handle>-third.txt
+# Status is dirty now
+git status
+# Commit file
+git commit <your gh handle>-third.txt -a -m "My third file"
+# Clean again
+git status
+# View past commits (quit with q)
+git log
+# Push to the remote
+git push
+```
+
+**<mdi-checkbox-marked-circle-plus-outline class="text-orange-400"/> Bonus tasks:** 
+
+* Create a few more commits (changing the file)
+* Commit without the `-m` option and enter your commit message manually
+
+---
+
+# Changing multiple files in one commit
+
+```bash
+# change all three of your files
+git status
+# multiple files should now show "unstaged changes"
+git add <your gh handle>-first.txt <your gh handle>-second.txt
+git status
+# two files "staged"
+# Commit. Careful: Do not use the -a option
+git commit -m "Committing changes to two files"
+git status
+# one file still showing unstaged changes
+git add <your gh handle>-third.txt
+git commit -m "Commit to one file"
+# Bring changes to github again
+git push 
+```
+
+Hints: 
+
+* If you want to add everything to the stage: `git add .` or use the `-a` option for git commit
+* If you want to remove a file from the staging area: `git reset <file>`
+* If you want to unstage all files: `git reset`
+
+---
+
+# Branches
+
+```bash
+git branch my-new-branch
+git status
+# still on branch 'main'
+git switch my-new-branch  # or: git checkout my-new-branch
+git status
+
+# Now use your previous knowledge to create some more commits
+
+git status
+# Make sure that everything is committed
+git log
+# Verify that you have added a view commits
+
+
+git switch main
+# Verify that the changes from the other branch are not present
+git log
+# Also our commits aren't present
+```
+
+---
+
+# Merging
+
+Bring the commits from `my-new-branch` back to `main`
+
+**<mdi-crown class="text-red-400"/> Advanced**: Add more commits to main before merging to set yourself up for a merge conflict
+
+
+```bash
+# On branch main
+git merge my-new-branch
+# Should work directly unless you're doing the advanced exercise
+```
+
+**<mdi-crown class="text-red-400"/> Advanced**: Manually modify the files to resolve the conflict, then `git commit -a`.
