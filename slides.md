@@ -2,15 +2,15 @@
 theme: default
 ---
 
-# **Collaborative Programming & Git**
+# **Collaborative Programming**
 
-Kilian Lieret
+[Kilian Lieret](https://github.com/klieret)
 
 Princeton University
 
 CoDaS-HEP school 2022
 
-Markdown-based slides available as [open source](https://github.com/klieret/collaborative-programming-github)
+Markdown-based slides available as [<mdi-github/> open source](https://github.com/klieret/collaborative-programming-github); contributions welcome!
 
 **Please open these slides on your laptop as we'll jump back and forth between the slides and the browser!**
 
@@ -18,7 +18,7 @@ Markdown-based slides available as [open source](https://github.com/klieret/coll
 
 # Structure of this lecture
 
-1. **Exploring github in the browser**
+1. <mdi-github class="text-blue-400"/> **Exploring github in the browser**
   
    1. Creating issues
    2. Forking a repository
@@ -43,18 +43,19 @@ layout: two-cols
 
 ::right::
 
-
-**Bonus tasks**
+**<mdi-checkbox-marked-circle-plus-outline class="text-orange-400"/> Bonus tasks**
    
-1. Edit the text & title of your issue
-2. Add a comment mentioning another participant
-3. Use an emoji reaction
-4. Close & reopen your issue
-5. Check for other issues and comment there
+* Edit the text & title of your issue
+* Add a comment mentioning another participant
+* Use an emoji reaction
+* Close & reopen your issue
+* Check for other issues and comment there
 
-**Advanced**
+**<mdi-crown class="text-red-400"/> Advanced**
 
-Use the [gh command line tool](https://cli.github.com/) to open the issue
+* Install the [gh command line tool](https://cli.github.com/)
+* Clone the repository
+* Use the CL to open an issue
 
 ---
 layout: two-cols
@@ -122,7 +123,6 @@ Do the same with the gh CLI.
   * Not all of your PRs might be merged!
 * **Branches are cheap** and flexible, go use them!
 
-
 ---
 
 # Forks vs Branches
@@ -180,3 +180,5 @@ Let's create merge conflicts together!
 Once some of the PRs are merged, others will show conflicts.
 
 ---
+
+# 
