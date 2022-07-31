@@ -35,6 +35,8 @@ pre-commit install
 
 ## Lecture content
 
+Total: 81'
+
 ### Part I
 
 * [5'] Opening an issue
@@ -44,10 +46,21 @@ pre-commit install
 * [10'] Branches practice
 * [10'] Merge conflicts
 
-Total: 43
+Total: 43'
 
 ### Part II
 
 * [6'] Init repo
 * [6'] First comit
-* 
+* [4'] Multiple files
+* [5'] Branches
+* [7'] Merging + merge conflicts
+
+Sub-total: 28'
+
+### Part III
+
+* [5'] Git config
+* [5'] Remaining slides
+
+Sub-total: 10'
