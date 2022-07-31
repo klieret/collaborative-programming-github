@@ -11,7 +11,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Build
-        run: npm run build
+        run: npm run build -- --base '/collaborative-programming-github/'
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
