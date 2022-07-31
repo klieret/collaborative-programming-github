@@ -1,7 +1,7 @@
 # Collaborative Programming with GitHub
 
 > **Note**
-> 👉 Rendered slides live [here](https://klieret.github.io/collaborative-programming-github/) 👈
+> 👉 [**Click here for rendered slides!**](https://klieret.github.io/collaborative-programming-github/) 👈
 
 > **Warning**
 > This is **not** the playground repository.
