@@ -95,7 +95,6 @@ Do the same with the gh CLI.
 * Every node is a commit. Every commit points to a parent. 
 * Your fork "branched off" of the original repository: You're adding additional commits to a parallel reality
 * Next step: Bringing your commits back to the original repository
-* <mdi-alert class="text-blu-400"/> We're being a bit unprecise with the terminology and the picture here; more details later
 
 ---
 
@@ -162,13 +161,17 @@ layout: two-cols
 
 ::right::
 
-**<mdi-checkbox-marked-circle-plus-outline class="text-orange-400"/> Bonus tasks**
+**<mdi-checkbox-marked-circle-plus-outline class="text-orange-400"/> Bonus task: Adding additional commits to a PR**
 
 5. Go back to the default view of your repository and verify that you now have multiple branches
 6. Select your new branch
 7. Modify your just created file and create a new commit on the same branch
 8. Check that your PR has been updated by this new commit
 9. Remove `draft` status and ask repository owner to review + merge
+
+**<mdi-checkbox-marked-circle-plus-outline class="text-orange-400"/> Bonus task: Go crazy!**
+
+Commit to various branches, create PRs between your branches or to your neighbors branches.
 
 ---
 layout: two-cols
@@ -180,16 +183,33 @@ layout: two-cols
 
 ::right::
 
-<mdi-alert class="text-red-400"/> Please follow these instructions very precise or it won't work!
+<img src="/merge_conflict.jpg" style="height: 60%; text-align: right"/>
+
+* [source](https://devrant.com/rants/2183113/indeed-a-great-merge-conflict-unfortunately-this-cant-be-resolved-in-an-ide-also)
+
+---
+layout: two-cols
+---
+
+# Merge conflicts
+
+<mdi-alert class="text-red-400"/> **Please follow these instructions precisely!**
 
 1. Go to your fork
-3. Change something in `content/<your gh username>_first` to the branch (!) `merge-conflict` 
+2. Verify that you are on the `main` branch (yellow)
+3. Change something in `content/<your gh username>_first` and commit to the branch (!) `merge-conflict`  (blue)
 4. Open a pull request to your own `main` branch. Do not merge the PR yet!
-5. Change to your `main` branch
+5. Change to your `main` branch again
+
+::right::
+
 6. Change the same (!) line to something different and commit (to `main`)
 7. Check back on your PR, it should warn you about a conflict
 8. Resolve the conflict by determining how both changes should be reconciled
 9. Commit the merge
+
+<img src="/merge_conflict.drawio.svg" style="height: 50%"/>
+
 ---
 
 # 
