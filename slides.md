@@ -214,7 +214,7 @@ layout: two-cols
 
 ---
 
-# Part 2
+# Part 2: The command line
 
 <img src="/cl.jpg/" style="height: 80%">
 
@@ -350,3 +350,62 @@ git merge my-new-branch
 ```
 
 **<mdi-crown class="text-red-400"/> Advanced**: Manually modify the files to resolve the conflict, then `git commit -a`.
+
+---
+
+# Part III: Learning to love git
+
+<img src="/github-heatmap.png/"/>
+
+[source](https://mukilane.dev/blog/2017/12/25/100daysofcode.html)
+
+---
+
+# Your git config
+
+* All repository specific settings live in `<your repo>/.git/config`. Take a look!
+* You can set global settings in `~/.git/config`. Take a look!
+
+Defining aliases
+
+```bash
+# Type `git c` instead of `git commit`
+git config --global alias.c commit
+git config --global alias.ca commit -a
+# ...
+# Use `g` instead of git
+alias g="git"
+# You need to put this definition in your bashrc (or other zshrc etc.) to make it last
+```
+
+Alternatively you can also directly write into your config file.
+
+---
+
+# Practice, practice, practice
+
+and then some more
+
+[This page](https://dev.to/pradumnasaraf/want-to-learn-about-git-and-github-in-a-more-fun-way-4o5f) has very nice suggestions for different levels, all of them using **gamification** but increasing in realism.
+
+<img src="/learngitbranching.png/" style="max-height:  60%"/>
+
+---
+
+# Graphical tools
+
+can give you more intuition
+
+Go [here](https://git-scm.com/downloads/guis) for a curated list of them.
+
+<img src="/gitg.png/" style="max-height: 50%;">
+
+[source](https://en.wikipedia.org/wiki/File:GNOME_gitg.png)
+
+---
+
+# Thanks!
+
+You can also practice by improving these very slides!
+
+Go to https://github.com/klieret/collaborative-programming-github. Issues, forks and PRs are very welcome! You only need to speak markdown to help.
