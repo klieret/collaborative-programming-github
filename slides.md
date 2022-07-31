@@ -19,7 +19,7 @@ Markdown-based slides available as [<mdi-github/> open source](https://github.co
 # Structure of this lecture
 
 1. <mdi-github class="text-blue-400"/> **Exploring github in the browser**
-  
+
    1. Creating issues
    2. Forking a repository
    3. Creating commits
@@ -44,7 +44,7 @@ layout: two-cols
 ::right::
 
 **<mdi-checkbox-marked-circle-plus-outline class="text-orange-400"/> Bonus tasks**
-   
+
 * Edit the text & title of your issue
 * Add a comment mentioning another participant
 * Use an emoji reaction
@@ -78,7 +78,7 @@ While you can open issues, you do not have permissions to directly modify conten
 <mdi-alert class="text-red-400"/> Usually you always want to commit to a separate branch in this scenario (later!)
 
 **<mdi-checkbox-marked-circle-plus-outline class="text-orange-400"/> Bonus tasks**
-   
+
 * Add a second file
 * Open your previous file and make changes to the text
 
@@ -92,7 +92,7 @@ Do the same with the gh CLI.
 
 <img src="/fork.drawio.svg"/>
 
-* Every node is a commit. Every commit points to a parent. 
+* Every node is a commit. Every commit points to a parent.
 * Your fork "branched off" of the original repository: You're adding additional commits to a parallel reality
 * Next step: Bringing your commits back to the original repository
 
@@ -107,7 +107,7 @@ Do the same with the gh CLI.
 
 * Mention one of your issues. If you write `Closes #<number of your issue>` and the PR is merged, the issue will automatically close.
 * Check the differences that the PR will create
-* Comment under one of othe differences
+* Comment under one of the differences
 * Mention another participant `@<name>`
 
 ---
@@ -226,7 +226,7 @@ layout: default
 
 Configure name, email and editor
 
-If you run git for the first time, 
+If you run git for the first time,
 
 ```bash
 git config --global user.name "John Doe"
@@ -277,7 +277,7 @@ git log
 git push
 ```
 
-**<mdi-checkbox-marked-circle-plus-outline class="text-orange-400"/> Bonus tasks:** 
+**<mdi-checkbox-marked-circle-plus-outline class="text-orange-400"/> Bonus tasks:**
 
 * Create a few more commits (changing the file)
 * Commit without the `-m` option and enter your commit message manually
@@ -300,10 +300,10 @@ git status
 git add <your gh handle>-third.txt
 git commit -m "Commit to one file"
 # Bring changes to github again
-git push 
+git push
 ```
 
-Hints: 
+Hints:
 
 * If you want to add everything to the stage: `git add .` or use the `-a` option for git commit
 * If you want to remove a file from the staging area: `git reset <file>`

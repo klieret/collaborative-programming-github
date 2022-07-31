@@ -14,3 +14,4 @@
     -   id: end-of-file-fixer
     -   id: trailing-whitespace
 
+    exclude: "public|figure-sources"

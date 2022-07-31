@@ -51,7 +51,7 @@ Total: 43'
 ### Part II
 
 * [6'] Init repo
-* [6'] First comit
+* [6'] First commit
 * [4'] Multiple files
 * [5'] Branches
 * [7'] Merging + merge conflicts
