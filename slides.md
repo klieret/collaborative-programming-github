@@ -355,7 +355,7 @@ git merge my-new-branch
 
 # Part III: Learning to love git
 
-<img src="/github-heatmap.png/"/>
+<img src="/github-heatmap.png"/>
 
 [source](https://mukilane.dev/blog/2017/12/25/100daysofcode.html)
 
@@ -388,7 +388,7 @@ and then some more
 
 [This page](https://dev.to/pradumnasaraf/want-to-learn-about-git-and-github-in-a-more-fun-way-4o5f) has very nice suggestions for different levels, all of them using **gamification** but increasing in realism.
 
-<img src="/learngitbranching.png/" style="max-height:  60%"/>
+<img src="/learngitbranching.png" style="max-height:  60%"/>
 
 ---
 
@@ -398,7 +398,7 @@ can give you more intuition
 
 Go [here](https://git-scm.com/downloads/guis) for a curated list of them.
 
-<img src="/gitg.png/" style="max-height: 50%;">
+<img src="/gitg.png" style="max-height: 50%;">
 
 [source](https://en.wikipedia.org/wiki/File:GNOME_gitg.png)
 
