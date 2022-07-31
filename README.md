@@ -1,7 +1,7 @@
 # Collaborative Programming with GitHub
 
 [![PR welcome](https://img.shields.io/badge/PR-Welcome-%23FF8300.svg)](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project)
-[![gh actions](github.com/klieret/collaborative-programming-github//workflows/testing/badge.svg)](github.com/klieret/collaborative-programming-github//actions)
+[![gh actions](https://github.com/klieret/collaborative-programming-github/actions/workflows/deploy/badge.svg)](https://github.com/klieret/collaborative-programming-github/actions)
 
 > **Note**
 > 👉 [**Click here for rendered slides!**](https://klieret.github.io/collaborative-programming-github/) 👈
