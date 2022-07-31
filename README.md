@@ -13,7 +13,7 @@
 Slides created for the [CoDaS-HEP 2022 school](https://indico.cern.ch/event/1151367/).
 You can use them for your teaching, too (see license)! Contributions are very welcome as well.
 
-## 📦 Installation
+## 🧰 Local development
 
 The slides are built with [Slidev](https://github.com/slidevjs/slidev).
 
