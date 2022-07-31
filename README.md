@@ -10,8 +10,15 @@
 > This is **not** the playground repository.
 > Pull requests that improve the lecture are much appreciated though!
 
-Slides created for the [CoDaS-HEP 2022 school](https://indico.cern.ch/event/1151367/).
-You can use them for your teaching, too (see license)! Contributions are very welcome as well.
+Slides to introduce collaborative programming with github and git.
+The first part of the slides makes extensive use of the github web interface
+to provide students with more intuition and flatten the learning curve.
+The second part then turns to the command line.
+
+> **Note**
+> You can use these slides for your teaching, too** (see license)! Contributions are very welcome as well.
+
+Slides originally created for the [CoDaS-HEP 2022 school](https://indico.cern.ch/event/1151367/).
 
 ## 🧰 Local development
 
