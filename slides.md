@@ -90,7 +90,7 @@ Do the same with the gh CLI.
 
 # What did we do?
 
-<img src="/feature.svg"/>
+<img src="/fork.drawio.svg"/>
 
 * Every node is a commit. Every commit points to a parent. 
 * Your fork "branched off" of the original repository: You're adding additional commits to a parallel reality
@@ -113,15 +113,22 @@ Do the same with the gh CLI.
 
 ---
 
-# Branches
+# What did we do?
 
-<img src="/feature.svg"/>
+<img src="/fork_merged.drawio.svg"/>
+
+---
+
+# Branches
 
 * If we want to start another PR, we do not need to fork again, we can create another **branch**.
 * **Use cases**:
   * Working on several independent experimental features
   * Not all of your PRs might be merged!
 * **Branches are cheap** and flexible, go use them!
+
+
+<img src="/fork_merged_branches.drawio.svg" style="max-width: 60%"/>
 
 ---
 
@@ -148,9 +155,10 @@ layout: two-cols
 4. Commit!
 5. Create another PR to either:
    * The original repository (`klieret/codas...`)
-   * Your own `main` branch (will affect already open PR from this branch)
-   * Your neighbors `main` branch (will affect already open PR from this branch)
-6. If you receive a PR, merge it
+   * Your own `main` branch
+   * Your neighbors `main` branch
+6. If you want to do the bonus exercises, mark your PR as `draft`
+6. If you receive a PR, merge it (unless it's marked as a draft)
 
 ::right::
 
@@ -160,6 +168,7 @@ layout: two-cols
 6. Select your new branch
 7. Modify your just created file and create a new commit on the same branch
 8. Check that your PR has been updated by this new commit
+9. Remove `draft` status and ask repository owner to review + merge
 
 ---
 layout: two-cols
@@ -167,18 +176,20 @@ layout: two-cols
 
 # Merge conflicts
 
-<img src="/merge_conflict.drawio.svg" style="max-height: 50%"/>
+<img src="/merge_conflict.drawio.svg"/>
 
 ::right::
 
-Let's create merge conflicts together!
+<mdi-alert class="text-red-400"/> Please follow these instructions very precise or it won't work!
 
 1. Go to your fork
-3. Change something in `content/random-text.txt` (at a random (!) line) and commit it to the branch `merge-conflict`
-4. Open a pull request to `klieret/codas...` (`main` branch)
-
-Once some of the PRs are merged, others will show conflicts.
-
+3. Change something in `content/<your gh username>_first` to the branch (!) `merge-conflict` 
+4. Open a pull request to your own `main` branch. Do not merge the PR yet!
+5. Change to your `main` branch
+6. Change the same (!) line to something different and commit (to `main`)
+7. Check back on your PR, it should warn you about a conflict
+8. Resolve the conflict by determining how both changes should be reconciled
+9. Commit the merge
 ---
 
 # 
