@@ -216,7 +216,7 @@ layout: two-cols
 
 # Part 2: The command line
 
-<img src="/cl.jpg/" style="height: 80%">
+<img src="/cl.jpg" style="height: 80%">
 
 ---
 layout: default
