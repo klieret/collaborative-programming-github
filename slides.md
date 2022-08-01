@@ -262,6 +262,8 @@ git clone git@github.com:<your username>/collaborative-programming-github.git
 cd collaborative-programming-github
 cd content
 ls
+# Get changes that were done on the remote, just in case
+git pull
 # show status of git repository
 git status
 # Create new file
@@ -358,13 +360,15 @@ git merge my-new-branch
 
 ... but what you should really know about
 
-* `git show`
-* `git stash`
-* `.gitignore` files
-* `git revert`
-* `git checkout`
+* `git show`: Show details about a commit
+* `git diff`: Show differences
+* `git stash`: Temporarily put changes aside
+* `.gitignore` files: Avoid tracking irrelevant files
+* `git revert`: Revert changes
+* `git checkout`: Jump through history (or between branches)
 * ...
 
+Take a look at a cheat sheet [like this one](https://about.gitlab.com/images/press/git-cheat-sheet.pdf) and make sure you understand all commands listed.
 
 ---
 
