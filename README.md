@@ -42,35 +42,4 @@ pre-commit install
 
 ## Lecture content
 
-> **Warning**
-> Timings are entire NONSENSE. Part 1 took 1h25 ;)
-
-Total: 81'
-
-### Part I
-
-* [5'] Opening an issue
-* [8'] Fork & commit
-* [6'] PR
-* [4'] Branches theory
-* [10'] Branches practice
-* [10'] Merge conflicts
-
-Total: 43'
-
-### Part II
-
-* [6'] Init repo
-* [6'] First commit
-* [4'] Multiple files
-* [5'] Branches
-* [7'] Merging + merge conflicts
-
-Sub-total: 28'
-
-### Part III
-
-* [5'] Git config
-* [5'] Remaining slides
-
-Sub-total: 10'
+Part I + III took 1h30 to teach (for the `codas-hep 22` release).
