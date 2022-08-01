@@ -18,7 +18,7 @@ The second part then turns to the command line.
 > **Note**
 > You can use these slides for your teaching, too (see license)! Contributions are very welcome as well.
 
-Slides originally created for the [CoDaS-HEP 2022 school](https://indico.cern.ch/event/1151367/).
+Slides originally created for the [CoDaS-HEP 2022 school](https://indico.cern.ch/event/1151367/) (PDF version of the slides available in the release).
 
 ## 🧰 Local development
 
