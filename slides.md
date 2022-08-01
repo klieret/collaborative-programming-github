@@ -1,5 +1,6 @@
 ---
 theme: default
+download: true
 ---
 
 # **Collaborative Programming**
