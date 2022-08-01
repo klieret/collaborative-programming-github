@@ -42,6 +42,9 @@ pre-commit install
 
 ## Lecture content
 
+> **Warning**
+> Timings are entire NONSENSE. Part 1 took 1h25 ;)
+
 Total: 81'
 
 ### Part I
