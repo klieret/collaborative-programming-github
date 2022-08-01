@@ -353,6 +353,20 @@ git merge my-new-branch
 
 ---
 
+# What we didn't tell you about today
+
+... but what you should really know about
+
+* `git show`
+* `git stash`
+* `.gitignore` files
+* `git revert`
+* `git checkout`
+* ...
+
+
+---
+
 # Part III: Learning to love git
 
 <img src="/github-heatmap.png"/>
@@ -379,6 +393,10 @@ alias g="git"
 ```
 
 Alternatively you can also directly write into your config file.
+
+> **Rule of thumb:**
+> If you are unsure about the metadata of your repository or about commands that modify it,
+> take a look at your `.git/config`.
 
 ---
 
