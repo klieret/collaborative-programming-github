@@ -373,6 +373,10 @@ git merge my-new-branch
 
 [source](https://mukilane.dev/blog/2017/12/25/100daysofcode.html)
 
+> If you are developing software, you almost certainly will use git, no matter where.
+> Learning to master git is perhaps THE most transferable skill you can hone.
+> And it would not be so dominant if you could not learn to love it.
+
 ---
 
 # Your git config
