@@ -26,6 +26,11 @@ Slides originally created for the [CoDaS-HEP 2022 school](https://indico.cern.ch
 
 <img width="450" alt="screenshot of slides" src="https://user-images.githubusercontent.com/13602468/201176505-ae9f2416-2b37-4ccf-a02d-85b600d5a3ae.png">
 
+## 🌐 Other resources
+
+Less related training material built with the same markdown-based framework:
+
+* [Everything You Didn't Know You Needed](https://github.com/klieret/everything-you-didnt-now-you-needed)
 
 ## 🧰 Local development
 
