@@ -19,11 +19,12 @@ Markdown-based slides available as [<mdi-github/> open source](https://github.co
 
 1. <mdi-github class="text-blue-400"/> **Exploring github in the browser**
 
-   1. Creating issues
-   2. Forking a repository
-   3. Creating commits
-   4. Opening pull requests
-   5. Handling merge conflicts
+   1. GitHub Gists
+   2. Creating issues
+   3. Forking a repository
+   4. Creating commits
+   5. Opening pull requests
+   6. Handling merge conflicts
 
 2. **Working with a local repository**
 
@@ -31,7 +32,24 @@ Markdown-based slides available as [<mdi-github/> open source](https://github.co
 
 ---
 
-# Let's explore the git history
+# GitHub Gists
+
+the easiest way to share code on GitHub
+
+* The "gist" interface works more like a pastebin (and is very easy to use!)
+* Go to [github.com](https://github.com) and click the "+" symbol and select "Gist" **or** directly go to [gist.github.com](https://gist.github.com)
+* Create a simple file and publish it
+
+However: **Gists are not meant for collaboration or lager pieces of work!**
+
+Use case:
+
+* Embed code snippets in websites that don't natively support it properly (like medium)
+* Quick sharing of simple code snippets
+
+---
+
+# Let's explore the history of an open source repository
 
 1. Navigate to [https://github.com/klieret/collab-git-playground-princeton-23](https://github.com/klieret/collab-git-playground-princeton-23) ("playground repository")
 2. Explore the history and find a hidden tiger 🐅!
@@ -147,7 +165,6 @@ Starting `VScode` in the browser
   * Not all of your PRs might be merged!
 * **Branches are cheap** and flexible, go use them!
 
-
 <img src="/fork_merged_branches.drawio.svg" style="max-width: 60%"/>
 
 ---
@@ -174,9 +191,9 @@ layout: two-cols
 3. Give your branch a reasonable name (whitespace discouraged)
 4. Commit!
 5. Create another PR to either:
+   * Your neighbors `main` branch
    * The original repository (`klieret/collab-...`)
    * Your own `main` branch
-   * Your neighbors `main` branch
 6. <mdi-checkbox-marked-circle-plus-outline class="text-orange-400"/> If you want to do the bonus exercises, mark your PR as `draft`
 7. If you receive a PR, merge it (unless it's a draft)
 
@@ -409,6 +426,10 @@ Take a look at a cheat sheet [like this one](https://about.gitlab.com/images/pre
 * All repository specific settings live in `<your repo>/.git/config`. Take a look!
 * You can set global settings in `~/.git/config`. Take a look!
 
+> **Rule of thumb:**
+> If you are unsure about the metadata of your repository or about commands that modify it,
+> take a look at your `.git/config`.
+
 Defining aliases
 
 ```bash
@@ -422,10 +443,6 @@ alias g="git"
 ```
 
 Alternatively you can also directly write into your config file.
-
-> **Rule of thumb:**
-> If you are unsure about the metadata of your repository or about commands that modify it,
-> take a look at your `.git/config`.
 
 ---
 
