@@ -468,7 +468,24 @@ Go [here](https://git-scm.com/downloads/guis) for a curated list of them.
 
 ---
 
+# Best practices
+
+> **Licensing**
+> Don't forget to add a license to your repository or nobody can use it!
+> See for example the [GitHub docs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository) for more information.
+
+&nbsp;
+
+
+&nbsp;
+
+> **GitHub actions**
+> You can automatically run unit tests or other automated tasks every time you commit (or perform other actions on GitHub).
+> Take a look at [GitHub actions](https://github.com/features/actions).
+> For simple checks with almost no setup, also take a look at [pre-commit](https://pre-commit.com/) and its [GitHub integration](https://pre-commit.ci/).
+
+---
+
 # Thanks!
 
-* You can also practice by improving these very slides! Go to https://github.com/klieret/collaborative-programming-github. Issues, forks and PRs are very welcome! You only need to speak markdown to help.
-* In general, contributing to documentation is the most easy way to start to make "real" contributions. How about one of the projects at [scikit-hep](https://github.com/scikit-hep)? Or some open source training material at [HSF training](https://github.com/hsf-training/)?
+You can also practice by improving these very slides! Go to https://github.com/klieret/collaborative-programming-github. Issues, forks and PRs are very welcome! You only need to speak markdown to help.
