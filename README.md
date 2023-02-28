@@ -44,7 +44,7 @@ To start the slide show locally:
 
 Edit the [slides.md](./slides.md) to see the changes.
 
-Learn more about Slidev on [documentations](https://sli.dev/).
+Learn more about Slidev: [official documentation](https://sli.dev/).
 
 When contributing, please also set up the pre-commit hooks with
 
