@@ -30,12 +30,19 @@ Markdown-based slides available as [<mdi-github/> open source](https://github.co
 3. **Advanced tips & tricks**
 
 ---
+
+# Let's explore the git history
+
+1. Navigate to [https://github.com/klieret/collab-git-playground-princeton-23](https://github.com/klieret/collab-git-playground-princeton-23) ("playground repository")
+2. Explore the history and find a hidden tiger 🐅!
+
+---
 layout: two-cols
 ---
 
 # Let's open an issue!
 
-1. Please navigate to [https://github.com/klieret/collab-git-playground-princeton-23](https://github.com/klieret/collab-git-playground-princeton-23).
+1. Please navigate to the playground repository
 2. Open an issue with a random feature request
 
 ::right::
