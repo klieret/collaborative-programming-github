@@ -9,8 +9,6 @@ download: true
 
 Princeton University
 
-CoDaS-HEP school 2022
-
 Markdown-based slides available as [<mdi-github/> open source](https://github.com/klieret/collaborative-programming-github); contributions welcome!
 
 **Please open these slides on your laptop as we'll jump back and forth between the slides and the browser!**
@@ -37,19 +35,17 @@ layout: two-cols
 
 # Let's open an issue!
 
-
-
-1. Please navigate to [https://github.com/klieret/codas-hep-22-git-playground](https://github.com/klieret/codas-hep-22-git-playground).
+1. Please navigate to [https://github.com/klieret/collab-git-playground-princeton-23](https://github.com/klieret/collab-git-playground-princeton-23).
 2. Open an issue with a random feature request
 
 ::right::
 
 **<mdi-checkbox-marked-circle-plus-outline class="text-orange-400"/> Bonus tasks**
 
-* Edit the text & title of your issue
-* Add a comment mentioning another participant
-* Use an emoji reaction
-* Close & reopen your issue
+* Edit the **title & description** of your issue
+* Add a **comment** mentioning another participant
+* Use an emoji **reaction**
+* **Close & reopen** your issue
 * Check for other issues and comment there
 
 **<mdi-crown class="text-red-400"/> Advanced**
@@ -61,7 +57,6 @@ layout: two-cols
 ---
 layout: two-cols
 ---
-
 
 # Forking & committing changes
 
