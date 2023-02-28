@@ -93,6 +93,24 @@ Do the same with the gh CLI.
 * Next step: Bringing your commits back to the original repository
 
 ---
+layout: two-cols
+---
+
+# Advanced editing
+
+Starting `VScode` in the browser
+
+1. Navigate to the playground repository and press  `.`, or change the URL from `github.com` to `github.dev`.
+2. Make some additional changes
+3. Commit by clicking on the git tab in the left menu, adding a message and pressing 'commit & push'
+4. Change back to the previous few by changing from `github.dev` back tos
+  `github.com`
+
+::right::
+
+<img src="/github_vscode.png"/>
+
+---
 
 # Creating a PR
 
@@ -149,11 +167,11 @@ layout: two-cols
 3. Give your branch a reasonable name (whitespace discouraged)
 4. Commit!
 5. Create another PR to either:
-   * The original repository (`klieret/codas...`)
+   * The original repository (`klieret/collab-...`)
    * Your own `main` branch
    * Your neighbors `main` branch
 6. <mdi-checkbox-marked-circle-plus-outline class="text-orange-400"/> If you want to do the bonus exercises, mark your PR as `draft`
-6. If you receive a PR, merge it (unless it's a draft)
+7. If you receive a PR, merge it (unless it's a draft)
 
 ::right::
 
