@@ -17,7 +17,7 @@ Markdown-based slides available as [<mdi-github/> open source](https://github.co
 
 # Structure of this lecture
 
-1. <mdi-github class="text-blue-400"/> **Exploring github in the browser**
+1. <mdi-github class="text-blue-400"/> **Collaboration in the browser**
 
    1. GitHub Gists
    2. Creating issues
@@ -28,7 +28,7 @@ Markdown-based slides available as [<mdi-github/> open source](https://github.co
 
 2. **Working with a local repository**
 
-3. **Advanced tips & tricks**
+3. **Learning to love git** (showcase of advanced topics)
 
 ---
 
@@ -36,20 +36,26 @@ Markdown-based slides available as [<mdi-github/> open source](https://github.co
 
 the easiest way to share code on GitHub
 
-* The "gist" interface works more like a pastebin (and is very easy to use!)
-* Go to [github.com](https://github.com) and click the "+" symbol and select "Gist" **or** directly go to [gist.github.com](https://gist.github.com)
-* Create a simple file and publish it
-
-However: **Gists are not meant for collaboration or lager pieces of work!**
+The "gist" interface works more like a pastebin (and is very easy to use!)
 
 Use case:
 
 * Embed code snippets in websites that don't natively support it properly (like medium)
 * Quick sharing of simple code snippets
 
+However: **Gists are not meant for collaboration or larger pieces of work!**
+
+**<mdi-checkbox-marked-circle-outline class="text-green-400"/> Tasks**
+
+1. Go to [github.com](https://github.com) and click the "+" symbol and select "Gist" **or** directly go to [gist.github.com](https://gist.github.com)
+2. Create a simple file and publish it
+
+
 ---
 
-# Let's explore the history of an open source repository
+## Let's explore the history of an open source repository
+
+this is text
 
 1. Navigate to [https://github.com/klieret/collab-git-playground-princeton-23](https://github.com/klieret/collab-git-playground-princeton-23) ("playground repository")
 2. Explore the history and find a hidden tiger 🐅!
@@ -58,7 +64,9 @@ Use case:
 layout: two-cols
 ---
 
-# Let's open an issue!
+## Let's open an issue!
+
+**<mdi-checkbox-marked-circle-outline class="text-green-400"/> Tasks**
 
 1. Please navigate to the playground repository
 2. Open an issue with a random feature request
@@ -83,7 +91,7 @@ layout: two-cols
 layout: two-cols
 ---
 
-# Forking & committing changes
+## Forking & committing changes
 
 While you can open issues, you do not have permissions to directly modify content.
 
@@ -109,7 +117,7 @@ Do the same with the gh CLI.
 
 ---
 
-# What did we do?
+## What did we do?
 
 <img src="/fork.drawio.svg"/>
 
@@ -137,7 +145,7 @@ Starting `VScode` in the browser
 
 ---
 
-# Creating a PR
+## Creating a PR
 
 * We want to bring our changes back to the original repository
 * If you create new commit on a fork, github will already offer you a button to open the PR
@@ -151,13 +159,13 @@ Starting `VScode` in the browser
 
 ---
 
-# What did we do?
+## What did we do?
 
 <img src="/fork_merged.drawio.svg"/>
 
 ---
 
-# Branches
+## Branches
 
 * If we want to start another PR, we do not need to fork again, we can create another **branch**.
 * **Use cases**:
@@ -169,7 +177,7 @@ Starting `VScode` in the browser
 
 ---
 
-# Forks vs Branches
+## Forks vs Branches
 
 * A *fork* copies the entire repository:
   * Similar to copying the entire local project folder (including your `.git` repository)
@@ -184,7 +192,7 @@ Starting `VScode` in the browser
 layout: two-cols
 ---
 
-# Branches
+## Branches
 
 1. Add another file `content/<your gh username>_second`
 2. Select `Create a new branch for this commit and start a pull request`
@@ -215,7 +223,7 @@ Commit to various branches, create PRs between your branches or to your neighbor
 layout: two-cols
 ---
 
-# Merge conflicts
+## Merge conflicts
 
 <img src="/merge_conflict.drawio.svg"/>
 
@@ -229,7 +237,7 @@ layout: two-cols
 layout: two-cols
 ---
 
-# Merge conflicts
+## Merge conflicts
 
 <mdi-alert class="text-red-400"/> **Please follow these instructions precisely!**
 
@@ -252,7 +260,7 @@ layout: two-cols
 
 ---
 
-# Part 2: The command line
+## Part 2: The command line
 
 <img src="/cl.jpg" style="height: 80%">
 
@@ -293,7 +301,7 @@ git clone git@github.com:<your username>/collaborative-programming-github.git
 
 ---
 
-# Your first commit
+## Your first commit
 
 ```bash
 cd collaborative-programming-github
@@ -324,7 +332,7 @@ git push
 
 ---
 
-# Changing multiple files in one commit
+## Changing multiple files in one commit
 
 ```bash
 # change all three of your files
@@ -351,7 +359,7 @@ Hints:
 
 ---
 
-# Branches
+## Branches
 
 ```bash
 git branch my-new-branch
@@ -376,7 +384,7 @@ git log
 
 ---
 
-# Merging
+## Merging
 
 Bring the commits from `my-new-branch` back to `main`
 
@@ -393,7 +401,7 @@ git merge my-new-branch
 
 ---
 
-# What we didn't tell you about today
+## What we didn't tell you about today
 
 ... but what you should really know about
 
@@ -421,7 +429,7 @@ Take a look at a cheat sheet [like this one](https://about.gitlab.com/images/pre
 
 ---
 
-# Your git config
+## Your git config
 
 * All repository specific settings live in `<your repo>/.git/config`. Take a look!
 * You can set global settings in `~/.git/config`. Take a look!
@@ -446,7 +454,7 @@ Alternatively you can also directly write into your config file.
 
 ---
 
-# Practice, practice, practice
+## Practice, practice, practice
 
 and then some more
 
@@ -456,7 +464,7 @@ and then some more
 
 ---
 
-# Graphical tools
+## Graphical tools
 
 can give you more intuition
 
@@ -468,7 +476,7 @@ Go [here](https://git-scm.com/downloads/guis) for a curated list of them.
 
 ---
 
-# Best practices
+## Best practices
 
 > **Licensing**
 > Don't forget to add a license to your repository or nobody can use it!
@@ -486,6 +494,6 @@ Go [here](https://git-scm.com/downloads/guis) for a curated list of them.
 
 ---
 
-# Thanks!
+## Thanks!
 
 You can also practice by improving these very slides! Go to https://github.com/klieret/collaborative-programming-github. Issues, forks and PRs are very welcome! You only need to speak markdown to help.
