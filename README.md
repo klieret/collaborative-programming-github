@@ -14,7 +14,7 @@
 > This is **not** the playground repository.
 > Pull requests that improve the lecture are much appreciated though!
 
-Slides to introduce collaborative programming with git. 
+Slides to introduce collaborative programming with git.
 This lecture aims to be 90% hands-on and at least 90% collaborative.
 
 - Part 1: Learn to fork, branch, create PRs, resolve merge conflicts, all from the GitHub web interface
