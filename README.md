@@ -14,10 +14,12 @@
 > This is **not** the playground repository.
 > Pull requests that improve the lecture are much appreciated though!
 
-Slides to introduce collaborative programming with github and git.
-The first part of the slides makes extensive use of the github web interface
-to provide students with more intuition and flatten the learning curve.
-The second part then turns to the command line.
+Slides to introduce collaborative programming with git. 
+This lecture aims to be 90% hands-on and at least 90% collaborative.
+
+- Part 1: Learn to fork, branch, create PRs, resolve merge conflicts, all from the GitHub web interface
+- Part 2: Let's contribute from the command line
+- Part 3: Learning to love git
 
 > **Note**
 > You can use these slides for your teaching, too (see license)! Contributions are very welcome as well.
@@ -25,9 +27,13 @@ The second part then turns to the command line.
 > **Note**
 > PDF versions are available in the releases.
 
-Slides originally created for the [CoDaS-HEP 2022 school](https://indico.cern.ch/event/1151367/).
-
 <img width="450" alt="screenshot of slides" src="https://user-images.githubusercontent.com/13602468/201176505-ae9f2416-2b37-4ccf-a02d-85b600d5a3ae.png">
+
+Taught as
+
+- [*Collaborative Software Development with Git(Hub)* at the CoDaS-HEP 2023 school](https://indico.cern.ch/event/1287965/)
+- [*Let's Collaborate! Software Development Using the GitHub Web Interface* at Princeton University](https://gradschool.princeton.edu/events/2023/lets-collaborate-software-development-using-github-web-interface)
+- [*Collaborative programming* at the CoDaS-HEP 2022 school](https://indico.cern.ch/event/1151367/).
 
 ## 🌐 Other resources
 
