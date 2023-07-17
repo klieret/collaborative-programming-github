@@ -55,9 +55,9 @@ However: **Gists are not meant for collaboration or larger pieces of work!**
 
 ## Let's explore the history of an open source repository
 
-this is text
+**<mdi-checkbox-marked-circle-outline class="text-green-400"/> Tasks**
 
-1. Navigate to [https://github.com/klieret/collab-git-playground-princeton-23](https://github.com/klieret/collab-git-playground-princeton-23) ("playground repository")
+1. Navigate to [https://github.com/klieret/collab-git-playground-codas-hep-23](https://github.com/klieret/collab-git-playground-codas-hep-23) ("playground repository")
 2. Explore the history and find a hidden tiger 🐅!
 
 ---
@@ -95,16 +95,17 @@ layout: two-cols
 
 While you can open issues, you do not have permissions to directly modify content.
 
+**<mdi-checkbox-marked-circle-outline class="text-green-400"/> Tasks**
+
 1. Click the **fork** button. This will create a "copy" of the whole repository
 2. Open the `content` folder and click `Add file` > `Create new file`
 3. Call your file `<your gh username>_first` and add a few lines to it
-
-::right::
-
-5. Add a commit message and commit
-6. Confirm that you see your file & a new commit
+4. Add a commit message and commit
+5. Confirm that you see your file & a new commit
 
 <mdi-alert class="text-red-400"/> Usually you always want to commit to a separate branch in this scenario (later!)
+
+::right::
 
 **<mdi-checkbox-marked-circle-plus-outline class="text-orange-400"/> Bonus tasks**
 
@@ -131,13 +132,19 @@ layout: two-cols
 
 # Advanced editing
 
-Starting `VScode` in the browser
+Starting `VSCode` in the browser
 
-1. Navigate to the playground repository and press  `.`, or change the URL from `github.com` to `github.dev`.
-2. Make some additional changes
-3. Commit by clicking on the git tab in the left menu, adding a message and pressing 'commit & push'
-4. Change back to the previous few by changing from `github.dev` back tos
-  `github.com`
+**<mdi-checkbox-marked-circle-outline class="text-green-400"/> Tasks**
+
+1. Navigate to the playground repository
+2. Do one of these:
+   * Press `.` (opens in same tab),
+   * Press `>` (opens in new tab)
+   * change the URL from `github.com` to `github.dev`.
+3. Make some additional changes
+4. Commit by clicking on the git tab in the left menu, adding a message and pressing 'commit & push'
+
+Change back to the previous view by changing from `github.dev` back to `github.com`.
 
 &nbsp;
 
@@ -149,10 +156,30 @@ Pro-tip: You can also do that in a PR to quickly append commits there.
 
 ---
 
-## Creating a PR
+# Advanced-er editing with GitHub Codespaces
 
-* We want to bring our changes back to the original repository
-* If you create new commit on a fork, github will already offer you a button to open the PR
+A full development platform
+
+**<mdi-checkbox-marked-circle-outline class="text-green-400"/> Tasks**
+
+1. Go back to the repository and open GitHub codespaces:
+
+<img src="/codespaces.png" style="width: 35%; margin: auto;"/>
+
+2. Type `echo 'hello world'` in the terminal
+3. <mdi-checkbox-marked-circle-plus-outline class="text-orange-400"/> Install stuff: <code>sudo apt-get update && sudo apt-get install fortune && /usr/games/fortune</code>
+
+---
+
+# Creating a PR
+
+How to bring our changes back to the original repository
+
+**<mdi-checkbox-marked-circle-outline class="text-green-400"/> Tasks**
+
+* If you create new commit on a fork, github will already offer you a button to open the PR. Click it!
+
+<img src="/pr.png" style="margin: auto;"/>
 
 **<mdi-checkbox-marked-circle-plus-outline class="text-orange-400"/> Bonus tasks**
 
@@ -163,7 +190,9 @@ Pro-tip: You can also do that in a PR to quickly append commits there.
 
 ---
 
-## What did we do?
+# What did we do?
+
+Someone just merged your pull request!
 
 <img src="/fork_merged.drawio.svg"/>
 
@@ -171,11 +200,12 @@ Pro-tip: You can also do that in a PR to quickly append commits there.
 
 ## Branches
 
-* If we want to start another PR, we do not need to fork again, we can create another **branch**.
+* If we want to start another PR, we do not need to fork again.
+* This time however, we first create another **branch** in our fork.
 * **Use cases**:
   * Working on several independent experimental features
   * Not all of your PRs might be merged!
-* **Branches are cheap** and flexible, go use them!
+* **Branches are cheap** and flexible, always use them!
 
 <img src="/fork_merged_branches.drawio.svg" style="max-width: 60%"/>
 
@@ -203,8 +233,8 @@ layout: two-cols
 3. Give your branch a reasonable name (whitespace discouraged)
 4. Commit!
 5. Create another PR to either:
-   * Your neighbors `main` branch
-   * The original repository (`klieret/collab-...`)
+   * Your neighbor's `main` branch
+   * The original repository (`klieret/...`)
    * Your own `main` branch
 6. <mdi-checkbox-marked-circle-plus-outline class="text-orange-400"/> If you want to do the bonus exercises, mark your PR as `draft`
 7. If you receive a PR, merge it (unless it's a draft)
@@ -233,7 +263,7 @@ layout: two-cols
 
 ::right::
 
-<img src="/merge_conflict.jpg" style="height: 60%; text-align: right"/>
+<img src="/merge_conflict.jpg" style="height: 60%; margin-left: 10%"/>
 
 * [source](https://devrant.com/rants/2183113/indeed-a-great-merge-conflict-unfortunately-this-cant-be-resolved-in-an-ide-also)
 
@@ -243,7 +273,7 @@ layout: two-cols
 
 ## Merge conflicts
 
-<mdi-alert class="text-red-400"/> **Please follow these instructions precisely!**
+<mdi-alert class="text-red-400"/> <b>Please follow these instructions <i>precisely</i>!</b>
 
 1. Go to your fork
 2. Verify that you are on the `main` branch (yellow)
