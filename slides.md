@@ -131,6 +131,10 @@ Starting `VScode` in the browser
 4. Change back to the previous few by changing from `github.dev` back tos
   `github.com`
 
+&nbsp;
+
+Pro-tip: You can also do that in a PR to quickly append commits there.
+
 ::right::
 
 <img src="/github_vscode.png"/>
