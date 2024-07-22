@@ -322,19 +322,13 @@ git config --global core.editor nano
 git config --global init.defaultBranch main
 ```
 
-If you haven't done already, generate ssh keys for authentication to github
+Let's log in to GitHub (this will store the `GITHUB_TOKEN` env var):
 
 ```bash
-ssh-keygen
-# follow the instructions
-cat ~/.ssh/id_rsa.pub
+gh auth login
 ```
 
-and add the key to github. Then clone your repository:
-
-```bash
-git clone git@github.com:<your username>/collaborative-programming-github.git
-```
+and follow the instructions.
 
 **Please raise your hand if you have any issues**!
 
@@ -483,13 +477,16 @@ Defining aliases
 # Type `git c` instead of `git commit`
 git config --global alias.c commit
 git config --global alias.ca commit -a
-# ...
-# Use `g` instead of git
-alias g="git"
-# You need to put this definition in your bashrc (or other zshrc etc.) to make it last
 ```
 
 Alternatively you can also directly write into your config file.
+
+To alias `g` to `git`:
+
+```bash
+# put this in your bashrc or similar config
+alias g="git"
+```
 
 ---
 
@@ -523,6 +520,9 @@ Go [here](https://git-scm.com/downloads/guis) for a curated list of them.
 
 &nbsp;
 
+> **Merging vs squashing vs rebasing**
+> There are different ways to bring together different branches.
+> Learn about them and keep your history clean.
 
 &nbsp;
 
