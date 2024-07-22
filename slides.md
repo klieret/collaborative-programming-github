@@ -56,12 +56,13 @@ However: **Gists are not meant for collaboration or larger pieces of work!**
 
 ---
 
-## Let's explore the history of an open source repository
+## Let's explore an open source repository
 
 **<mdi-checkbox-marked-circle-outline class="text-green-400"/> Tasks**
 
 1. Navigate to [https://github.com/klieret/collab-git-playground-codas-hep-24](https://github.com/klieret/collab-git-playground-codas-hep-24) ("playground repository")
-2. Explore the history and find a hidden tiger 🐅!
+2. Find up to 4 (!) hidden tigers 🐅!
+3. Be the first to post a screenshot of your finding to Slack!
 
 ---
 layout: two-cols
@@ -72,7 +73,7 @@ layout: two-cols
 **<mdi-checkbox-marked-circle-outline class="text-green-400"/> Tasks**
 
 1. Please navigate to the playground repository
-2. Open an issue with a random feature request
+2. Open an issue with a fun feature request
 
 ::right::
 
@@ -81,14 +82,15 @@ layout: two-cols
 * Edit the **title & description** of your issue
 * Add a **comment** mentioning another participant
 * Use an emoji **reaction**
-* **Close & reopen** your issue
+* **Close** your issue
 * Check for other issues and comment there
 
 **<mdi-crown class="text-red-400"/> Advanced**
 
 * Install the [gh command line tool](https://cli.github.com/)
-* Clone the repository
-* Use the CL to open an issue
+* Authenticate with `gh auth login`
+* Clone: `gh repo clone klieret/collab-git-playground-codas-hep-24`
+* Open an issue `gh issue create`
 
 ---
 layout: two-cols
@@ -117,7 +119,7 @@ While you can open issues, you do not have permissions to directly modify conten
 
 **<mdi-crown class="text-red-400"/> Advanced**
 
-Do the same with the gh CLI.
+You can also fork using the gh CLI.
 
 ---
 
@@ -231,7 +233,7 @@ layout: two-cols
 
 ## Branches
 
-1. Add another file `content/<your gh username>_second`
+1. Add another file `<your gh username>_second`
 2. Select `Create a new branch for this commit and start a pull request`
 3. Give your branch a reasonable name (whitespace discouraged)
 4. Commit!
@@ -280,7 +282,7 @@ layout: two-cols
 
 1. Go to your fork
 2. Verify that you are on the `main` branch (yellow)
-3. Change something in `content/<your gh username>_first` and commit to the branch (!) `merge-conflict`  (blue)
+3. Change something in `<your gh username>_first` and commit to the branch (!) `merge-conflict`  (blue)
 4. Open a pull request to your own `main` branch. Do not merge the PR yet!
 5. Change to your `main` branch again
 
