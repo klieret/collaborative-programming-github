@@ -5,7 +5,7 @@ download: true
 
 # **Collaborative Programming**
 
-[Kilian Lieret](https://github.com/klieret)
+<a href="https://github.com/klieret">Kilian Lieret&nbsp; (<mdi-github class="text-blue-400"/> @klieret)</a>
 
 Princeton University
 
@@ -17,7 +17,7 @@ Markdown-based slides available as [<mdi-github/> open source](https://github.co
 
 # Structure of this lecture
 
-1. <mdi-github class="text-blue-400"/> **Collaboration in the browser**
+1. **Collaboration in the browser**
 
    1. GitHub Gists
    2. Creating issues
@@ -40,15 +40,18 @@ The "gist" interface works more like a pastebin (and is very easy to use!)
 
 Use case:
 
-* Embed code snippets in websites that don't natively support it properly (like medium)
 * Quick sharing of simple code snippets
+* Has version control
+* People can comment
+* Embed code snippets in websites that don't natively support it properly
 
 However: **Gists are not meant for collaboration or larger pieces of work!**
 
 **<mdi-checkbox-marked-circle-outline class="text-green-400"/> Tasks**
 
 1. Go to [github.com](https://github.com) and click the "+" symbol and select "Gist" **or** directly go to [gist.github.com](https://gist.github.com)
-2. Create a simple file and publish it
+2. Create a simple file with life changing advice and publish it
+3. If you feel confident about your content, share your URL on Slack!
 
 
 ---
@@ -57,7 +60,7 @@ However: **Gists are not meant for collaboration or larger pieces of work!**
 
 **<mdi-checkbox-marked-circle-outline class="text-green-400"/> Tasks**
 
-1. Navigate to [https://github.com/klieret/collab-git-playground-codas-hep-23](https://github.com/klieret/collab-git-playground-codas-hep-23) ("playground repository")
+1. Navigate to [https://github.com/klieret/collab-git-playground-codas-hep-24](https://github.com/klieret/collab-git-playground-codas-hep-24) ("playground repository")
 2. Explore the history and find a hidden tiger 🐅!
 
 ---
